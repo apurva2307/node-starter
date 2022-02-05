@@ -7,7 +7,7 @@
     "src/**/*"
   ],
   "scripts": {
-    "pub": "git push -u origin main && npm version patch && npm run build && npm publish"
+    "pub": "git push -u origin main && npm version patch && npm publish"
   },
   "keywords": [],
   "author": "apurva-singh",
