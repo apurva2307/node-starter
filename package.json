@@ -1,6 +1,6 @@
 {
   "name": "@apurva2307/node-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "It contains common code for starting a standard node-api.",
   "main": "index.js",
   "files": [
