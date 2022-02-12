@@ -1,6 +1,6 @@
 {
   "name": "@apurva2307/node-starter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "It contains common code for starting a standard node-api.",
   "main": "index.js",
   "files": [
@@ -9,7 +9,10 @@
   "scripts": {
     "pub": "git push -u origin main && npm version patch && npm publish"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "api"
+  ],
   "author": "apurva-singh",
   "license": "ISC",
   "dependencies": {
@@ -17,6 +20,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
     "express-mongo-sanitize": "^2.2.0",
     "express-rate-limit": "^6.2.0",
     "helmet": "^5.0.2",
