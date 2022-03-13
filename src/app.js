@@ -5,7 +5,6 @@ const app = express();
 
 //other packages
 const morgan = require("morgan");
-const cookieParser = require("cookie-parser");
 const xssClean = require("xss-clean");
 const helmet = require("helmet");
 const rateLimiter = require("express-rate-limit");
@@ -22,7 +21,6 @@ app.use(mongoSanitize());
 app.use(cors());
 app.use(morgan("tiny"));
 app.use(express.json());
-app.use(cookieParser(process.env.JWT_SECRET));
 
 app.use(express.static("./public"));
 
